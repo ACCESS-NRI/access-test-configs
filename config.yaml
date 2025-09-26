@@ -1,0 +1,9 @@
+name: A nice config
+modules:
+  use:
+  - /g/data/vk83/modules
+  - /g/data/vk83/software
+  load:
+  - conda/analysis3
+  - access-test/2025.03.000
+  - nco
