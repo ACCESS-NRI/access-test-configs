@@ -1,8 +1,12 @@
 name: a cool config
 modules:
   load:
-  - access-test/2025.01.000
-  - something/2021.02.003
+    - access-test/pr56-1
+    - something/2021.02.003
   use:
-  - /g/data/vk83/modules
-  - /g/data/vk83/software/modules
+    - /g/data/vk83/modules
+    - /g/data/vk83/software/modules
+    - /g/data/vk83/prerelease/modules
+manifest:
+  reproduce:
+    exe: false
