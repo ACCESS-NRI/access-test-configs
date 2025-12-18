@@ -1,9 +1,13 @@
-name: A nice config
+manifest:
+  reproduce:
+    exe: false
 modules:
+  load:
+  - access-test/pr56-1
+  - conda/analysis3
+  - nco
   use:
   - /g/data/vk83/modules
   - /g/data/vk83/software
-  load:
-  - conda/analysis3
-  - access-test/2025.03.000
-  - nco
+  - /g/data/vk83/prerelease/modules
+name: A nice config
